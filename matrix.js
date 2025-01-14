@@ -42,9 +42,9 @@ function solveMatrix() {
       const x3 = invA[2][0] * b[0] + invA[2][1] * b[1] + invA[2][2] * b[2] ;
   
       // 6. Display Results
-    document.getElementById('x1').textContent = x1.toFixed(0);
-    document.getElementById('x2').textContent = x2.toFixed(0);
-    document.getElementById('x3').textContent = x3.toFixed(0);
+    document.getElementById('x1').textContent = x1.toFixed(2);
+    document.getElementById('x2').textContent = x2.toFixed(2);
+    document.getElementById('x3').textContent = x3.toFixed(2);
   
   }
   
